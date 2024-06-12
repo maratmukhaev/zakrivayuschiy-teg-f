@@ -45,5 +45,6 @@
       linear-gradient(#007f0c, #004306);
     --color-stroke-label: #000;
     --color-text-button: #00cc14;
+    --color-contour: #00cc14;
   }
 }
