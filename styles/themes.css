@@ -15,7 +15,7 @@
     repeating-linear-gradient(#d3d3d3, #d3d3d3 2px, transparent 2px, transparent 4px), 
     linear-gradient(#e7e7e7 0.01%, #1a1a1a);
   --color-stroke-label: #fff;
-  --color-text-button: #fff; 
+  --color-text-button: #fff;
   --color-contour: #000;
 }
 

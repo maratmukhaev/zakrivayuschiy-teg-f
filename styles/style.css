@@ -96,7 +96,7 @@
   background-color: var(--accent-color);
   transform: scaleX(0);
   transform-origin: left;
-  transition: transform .3s ease; 
+  transition: transform .3s ease;
 }
 
 .theme-menu__button:focus-visible::after {
@@ -345,8 +345,7 @@
 
 .card__like-button:hover::before,
 .footer__save-button:hover::before,
-.dialog-button:hover::before
- {
+.dialog-button:hover::before {
   transform: scaleX(1);
 }
 

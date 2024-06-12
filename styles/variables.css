@@ -16,7 +16,7 @@
   --breakpoint: 375px;
   --breakpoint-simulation: (100vw - var(--breakpoint));
   --color-stroke-label: #fff;
-  --color-text-button: #fff; 
+  --color-text-button: #fff;
   --color-contour: #000;
   --fill-icon-button: #ff0000;
 }
