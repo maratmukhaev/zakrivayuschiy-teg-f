@@ -19,12 +19,12 @@
   </head>
   <body class="page">
     <header class="header section-width">
-      <h1 class="header__title">
+      <a class="logo">
         &lt;/HTML&gt;
-      </h1>
-      <h2 class="header__subtitle">
+      </a>
+      <h1 class="header__title">
         закрывающий тег
-      </h2>
+      </h1>
       <nav class="theme-menu header__theme-menu">
         <!-- Не меняйте разметку этого списка, иначе скрипты перестанут работать -->
         <ul class="theme-menu__list">
@@ -51,13 +51,13 @@
         </ul>
       </nav>
     </header>
-    <main class="section-width">
+    <main class="content section-width">
       <ul class="content__card-list">
         <li class="content__card-list-item">
           <article class="card">
-            <h3 class="card__title">
+            <h2 class="card__title">
               Фритрек и нулевой спринт: Подготовка к работе  
-            </h3>
+            </h2>
             <div class="overlay">
               <img
               class="card__picture expectation"
@@ -81,6 +81,7 @@
               <div class="card__buttons">
                 <button type="button" class="card__icon-button">
                   <svg 
+                    aria-hidden="true"
                     class="like-icon" 
                     width="39" 
                     height="36" 
@@ -106,9 +107,9 @@
         </li>
         <li class="content__card-list-item">
           <article class="card">
-            <h3 class="card__title">
+            <h2 class="card__title">
               1 спринт: Я — чистый лист  
-            </h3>
+            </h2>
             <div class="overlay">
               <img
               class="card__picture interest"
@@ -132,6 +133,7 @@
               <div class="card__buttons">
                 <button type="button" class="card__icon-button">
                   <svg 
+                    aria-hidden="true"
                     class="like-icon" 
                     width="39" 
                     height="36" 
@@ -157,9 +159,9 @@
         </li>
         <li class="content__card-list-item">
           <article class="card">
-            <h3 class="card__title">
+            <h2 class="card__title">
               1 спринт: А если не получится?  
-            </h3>
+            </h2>
             <div class="overlay">
               <img
               class="card__picture motivation"
@@ -183,6 +185,7 @@
               <div class="card__buttons">
                 <button type="button" class="card__icon-button">
                   <svg 
+                    aria-hidden="true"
                     class="like-icon" 
                     width="39" 
                     height="36" 
@@ -208,9 +211,9 @@
         </li>
         <li class="content__card-list-item">
           <article class="card">
-            <h3 class="card__title">
+            <h2 class="card__title">
               2 спринт: Погоня за идеалом
-            </h3>
+            </h2>
             <div class="overlay">
               <img
               class="card__picture perfectionism"
@@ -234,6 +237,7 @@
               <div class="card__buttons">
                 <button type="button" class="card__icon-button">
                   <svg 
+                    aria-hidden="true"
                     class="like-icon" 
                     width="39" 
                     height="36" 
@@ -259,9 +263,9 @@
         </li>
         <li class="content__card-list-item">
           <article class="card">
-            <h3 class="card__title">
+            <h2 class="card__title">
               2 спринт: О тех, кто рядом 
-            </h3>
+            </h2>
             <div class="overlay">
               <img
               class="card__picture support"
@@ -285,6 +289,7 @@
               <div class="card__buttons">
                 <button type="button" class="card__icon-button">
                   <svg 
+                    aria-hidden="true"
                     class="like-icon" 
                     width="39" 
                     height="36" 
@@ -310,9 +315,9 @@
         </li>
         <li class="content__card-list-item">
           <article class="card">
-            <h3 class="card__title">
+            <h2 class="card__title">
               3 спринт: Обходные стратегии 
-            </h3>
+            </h2>
             <div class="overlay">
               <img
               class="card__picture solution"
@@ -336,6 +341,7 @@
               <div class="card__buttons">
                 <button type="button" class="card__icon-button">
                   <svg 
+                    aria-hidden="true"
                     class="like-icon" 
                     width="39" 
                     height="36" 
@@ -361,9 +367,9 @@
         </li>
         <li class="content__card-list-item">
           <article class="card">
-            <h3 class="card__title">
+            <h2 class="card__title">
               3 спринт: Когда опускаются руки
-            </h3>
+            </h2>
             <div class="overlay">
               <img
               class="card__picture concentration"
@@ -387,6 +393,7 @@
               <div class="card__buttons">
                 <button type="button" class="card__icon-button">
                   <svg 
+                    aria-hidden="true"
                     class="like-icon" 
                     width="39" 
                     height="36" 
@@ -412,9 +419,9 @@
         </li>
         <li class="content__card-list-item">
           <article class="card">
-            <h3 class="card__title">
+            <h2 class="card__title">
               «Сейчас я здесь»
-            </h3>
+            </h2>
             <div class="overlay">
               <img
               class="card__picture rest"
@@ -438,6 +445,7 @@
               <div class="card__buttons">
                 <button type="button" class="card__icon-button">
                   <svg 
+                    aria-hidden="true"
                     class="like-icon" 
                     width="39" 
                     height="36" 
@@ -462,8 +470,6 @@
           </article>
         </li>
       </ul>
-    </main>
-    <footer class="footer">
       <button 
         type="button" 
         class="footer__save-button decor-button"
@@ -477,7 +483,7 @@
           Сохранить на память
         </span>
       </button>
-    </footer>
+    </main>
     <dialog id="dialog" class="dialog">
       <svg class="floppy" viewBox="0 0 40 40">
         <use href="./svg/floppy.svg#floppy"></use>
@@ -486,6 +492,7 @@
         Вставьте дискету, чтобы продолжить
       </h2>
       <button 
+        type="button" 
         class="dialog-button decor-button"
         onclick="window['dialog'].close()"
        >
